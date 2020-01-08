@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Dicy</string>
+    <string name="four_sided_dice">dado de 4 lados</string>
+    <string name="six_sided_dice">dado de 6 lados</string>
+    <string name="eight_sided_dice">dado de 8 lados</string>
+    <string name="ten_sided_dice">dado de 10 lados</string>
+    <string name="twelve_sided_dice">dado de 12 lados</string>
+    <string name="twenty_sided_dice">dado de 20 lados</string>
+    <string name="presets">Presets</string>
+    <string name="roll">Roll</string>
+</resources>

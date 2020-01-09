@@ -8,4 +8,6 @@
     <string name="twenty_sided_dice">dado de 20 lados</string>
     <string name="presets">Presets</string>
     <string name="roll">Roll</string>
+    <string name="results">Results</string>
+    <string name="your_results_will_appear_here">Your results will appear here</string>
 </resources>

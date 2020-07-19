@@ -8,13 +8,15 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
+    <ImageButton
         android:id="@+id/d4"
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
+        android:background="#00FFFFFF"
         android:contentDescription="@string/four_sided_dice"
+        android:scaleType="fitCenter"
         app:layout_constraintEnd_toStartOf="@+id/d6"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
@@ -22,11 +24,13 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/d4" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/d6"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/six_sided_dice"
+        android:scaleType="fitCenter"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/d4"
         app:layout_constraintEnd_toStartOf="@+id/d8"
         app:layout_constraintHorizontal_bias="0.5"
@@ -35,12 +39,14 @@
         app:layout_constraintTop_toTopOf="@+id/d4"
         app:srcCompat="@drawable/d6" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/d8"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginEnd="16dp"
         android:contentDescription="@string/eight_sided_dice"
+        android:scaleType="fitCenter"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/d4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -49,34 +55,40 @@
         app:layout_constraintTop_toTopOf="@+id/d4"
         app:srcCompat="@drawable/d8" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/d10"
         android:layout_width="0dp"
         android:layout_height="120dp"
         android:layout_marginTop="32dp"
         android:contentDescription="@string/ten_sided_dice"
+        android:scaleType="fitCenter"
+        android:background="#00FFFFFF"
         app:layout_constraintEnd_toEndOf="@+id/d4"
         app:layout_constraintStart_toStartOf="@+id/d4"
         app:layout_constraintTop_toBottomOf="@+id/d4"
         app:srcCompat="@drawable/d10" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/d12"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:contentDescription="@string/twelve_sided_dice"
+        android:scaleType="fitCenter"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/d10"
         app:layout_constraintEnd_toEndOf="@+id/d6"
         app:layout_constraintStart_toStartOf="@+id/d6"
         app:layout_constraintTop_toTopOf="@+id/d10"
         app:srcCompat="@drawable/d12" />
 
-    <ImageView
+    <ImageButton
         android:id="@+id/d20"
         android:layout_width="120dp"
         android:layout_height="120dp"
         android:layout_marginStart="7dp"
         android:contentDescription="@string/twenty_sided_dice"
+        android:scaleType="fitCenter"
+        android:background="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="@+id/d12"
         app:layout_constraintEnd_toEndOf="@+id/d8"
         app:layout_constraintStart_toStartOf="@+id/d8"
@@ -107,8 +119,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view" />
 
-    <Spinner
+    <EditText
         android:id="@+id/spinner"
+        android:background="@android:color/transparent"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"

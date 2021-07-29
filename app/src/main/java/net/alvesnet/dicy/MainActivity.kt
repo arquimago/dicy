@@ -10,7 +10,6 @@ import com.mikhaellopez.rxanimation.rotation
 import com.mikhaellopez.rxanimation.text
 import kotlinx.android.synthetic.main.activity_main.*
 
-
 class MainActivity : AppCompatActivity() {
 
     companion object{

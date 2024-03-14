@@ -22,7 +22,7 @@
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/d4" />
+        android:src="@drawable/d4" />
 
     <ImageButton
         android:id="@+id/d6"
@@ -37,7 +37,7 @@
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toEndOf="@+id/d4"
         app:layout_constraintTop_toTopOf="@+id/d4"
-        app:srcCompat="@drawable/d6" />
+        android:src="@drawable/d6" />
 
     <ImageButton
         android:id="@+id/d8"
@@ -53,7 +53,7 @@
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toEndOf="@+id/d6"
         app:layout_constraintTop_toTopOf="@+id/d4"
-        app:srcCompat="@drawable/d8" />
+        android:src="@drawable/d8" />
 
     <ImageButton
         android:id="@+id/d10"
@@ -66,7 +66,7 @@
         app:layout_constraintEnd_toEndOf="@+id/d4"
         app:layout_constraintStart_toStartOf="@+id/d4"
         app:layout_constraintTop_toBottomOf="@+id/d4"
-        app:srcCompat="@drawable/d10" />
+        android:src="@drawable/d10" />
 
     <ImageButton
         android:id="@+id/d12"
@@ -79,7 +79,7 @@
         app:layout_constraintEnd_toEndOf="@+id/d6"
         app:layout_constraintStart_toStartOf="@+id/d6"
         app:layout_constraintTop_toTopOf="@+id/d10"
-        app:srcCompat="@drawable/d12" />
+        android:src="@drawable/d12" />
 
     <ImageButton
         android:id="@+id/d20"
@@ -93,7 +93,7 @@
         app:layout_constraintEnd_toEndOf="@+id/d8"
         app:layout_constraintStart_toStartOf="@+id/d8"
         app:layout_constraintTop_toTopOf="@+id/d12"
-        app:srcCompat="@drawable/d20" />
+        android:src="@drawable/d20" />
 
     <View
         android:id="@+id/view"

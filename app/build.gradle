@@ -3,13 +3,13 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdk 34
+    compileSdk 36
     defaultConfig {
         applicationId "net.alvesnet.dicy"
         minSdkVersion 21
-        targetSdkVersion 34
-        versionCode 2
-        versionName "1.1"
+        targetSdkVersion 35
+        versionCode 3
+        versionName "1.2"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
